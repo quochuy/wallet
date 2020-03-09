@@ -874,7 +874,7 @@
     "wallet_index": {
         "title": "Steem wallet login",
         "description":
-            "Welcome to Steemit's official Steem blockchain wallet. Use it to transfer Steem tokens, Power up, vote for Steem Witnesses and change your Steem profile details.",
+            "This Steem Wallet is hosted and maintained by Steem Witness <a href=\"https://wallet.steemulant.com/~witnesses\">@quochuy</a>",
         "login": "Login",
         "steem_tokens": "Steem tokens",
         "steem_symbol": "STEEM",
