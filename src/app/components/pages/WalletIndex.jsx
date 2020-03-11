@@ -40,9 +40,14 @@ class WalletIndex extends React.Component {
                 <div className="row">
                     <div className="column login">
                         <h3 style={{ fontWeight: 'bold' }}>
-                            <FormattedHTMLMessage id="wallet_index.title" />
+                            {tt('wallet_index.title')}
                         </h3>
-                        <p>{tt('wallet_index.description')}</p>
+                        <p>
+                            <FormattedHTMLMessage
+                                className="secondary"
+                                id="wallet_index.description"
+                            />
+                        </p>
                         {loggedIn ? null : (
                             <div className="modal-buttons">
                                 <button
