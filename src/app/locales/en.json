@@ -874,7 +874,7 @@
     "wallet_index": {
         "title": "Steem wallet login",
         "description":
-            "This Steem Wallet is hosted and maintained by Steem Witness <a href=\"https://wallet.steemulant.com/~witnesses\">@quochuy</a>",
+            "This Steem Wallet is hosted and maintained by <a href=\"https://wallet.steemulant.com/~witnesses\">Steem Witness @quochuy</a>",
         "login": "Login",
         "steem_tokens": "Steem tokens",
         "steem_symbol": "STEEM",
