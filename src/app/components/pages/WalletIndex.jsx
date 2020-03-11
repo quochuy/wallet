@@ -4,6 +4,7 @@ import { browserHistory } from 'react-router';
 import { connect } from 'react-redux';
 import tt from 'counterpart';
 import * as userActions from 'app/redux/UserReducer';
+import { FormattedHTMLMessage } from 'app/Translator';
 import { validate_account_name } from 'app/utils/ChainValidation';
 
 class WalletIndex extends React.Component {
@@ -39,7 +40,7 @@ class WalletIndex extends React.Component {
                 <div className="row">
                     <div className="column login">
                         <h3 style={{ fontWeight: 'bold' }}>
-                            {tt('wallet_index.title')}
+                            <FormattedHTMLMessage id="wallet_index.title" />
                         </h3>
                         <p>{tt('wallet_index.description')}</p>
                         {loggedIn ? null : (
